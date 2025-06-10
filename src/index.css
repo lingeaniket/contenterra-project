@@ -29,7 +29,6 @@ body {
 }
 
 .flex-item {
-    /* flex: 1 1 calc(25% - 3.75px); */
     width: calc(33.33% - 4px);
     border: 1px solid black;
     border-radius: 5px;
@@ -59,8 +58,12 @@ body {
     }
 }
 
-.md > * {
-    margin-bottom: 0;
+.md {
+    border: 1px solid rgba(255, 255, 255, 0.518);
+    /* border-bottom: 1px solid white; */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
 
 a {

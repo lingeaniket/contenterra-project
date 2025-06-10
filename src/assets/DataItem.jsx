@@ -11,11 +11,10 @@ const DataItem = ({ item }) => {
             </div>
             {/* <p>{item.data}</p> */}
             <p>
-                <a href={item.data.url}>{item.data.url}</a>
+                <a href={item.data.url}>Link To Original Post</a>
             </p>
             <p>
-                {" "}
-                <i class='bi bi-hand-thumbs-up'></i> {item.data.score}
+                <i className='bi bi-hand-thumbs-up'></i> {item.data.score}
             </p>
         </div>
     );
